@@ -18,6 +18,7 @@ Tables(entities models) and fields:
 .isAdmin : boolean 
 .password resset)
 .email verification)
+-photo : String
 
 *djamgui: 
 .djangui_mame : string
