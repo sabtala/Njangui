@@ -9,37 +9,36 @@ Logic:
 Tables(entities models) and fields: 
 
 *user 
--first_name : string
--last_name : string
--email : : string(email)
--password : String
--phone_number : String
--address : String 
--isAdmin : boolean 
-(password resset)
-(email verification)
+.first_name : string
+.last_name : string
+.email : : string(email)
+.password : String
+.phone_number : String
+.address : String 
+.isAdmin : boolean 
+.password resset)
+.email verification)
 
 *djamgui: 
--djangui_mame : string
--starting date : Date
-- ending date : Date
-- users : [Users]
--amount: int 
--isActive: boolean (default: true) turms to false when the djangui end (maybe end date + 3 days?)
+.djangui_mame : string
+.starting date : Date
+. ending date : Date
+.users : [Users].amount: int 
+.isActive: boolean (default: true) turms to false when the djangui end (maybe end date + 3 days?)
 (timing: weekly ? 2 weeks? monthly? ...)
 
 *tour
--djangui : Djangui 
--starting_date : Date
--due_date : Date
-- recipient : User
--total_amount: int
-- cotisations : [Cotisation] : array of cotisations
+.djangui : Djangui 
+.starting_date : Date
+.due_date : Date
+. recipient : User
+.total_amount: int
+. cotisations : [Cotisation] : array of cotisations
 
 *Cotisation 
-- cotisation_name : Sting
--tour : Tour
--user : user 
--amount : int 
--cotisation_date: Date
+. cotisation_name : Sting
+.tour : Tour
+.user : user 
+.amount : int 
+.cotisation_date: Date
 
