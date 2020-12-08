@@ -1,0 +1,38 @@
+-User 
+POST /api/users : register(create the user) the user 
+GET /api/users : get all the users 
+GET /api/users/userId : get a specific user by userId
+PUT /api/users/userId : update a user 
+DELETE /api/users/userId : DELETE A USER (ADMIN)
+To come: enpoints for reset password and email verification
+
+-Djangui
+POST /api/djanguis : create the user a djangui
+GET /api/djanguis : get all the djanguis
+GET /api/djanguis/djanguiId : get a specific djanguis by djanguiId
+PUT /api/djangui/djanguiId : update a djangui(admin)
+DELETE /api/djangui/djanguiId : delete a djangui(admin)
+GET /api/djanguis/djanguiId/djanguiId/users : get all the the users for a specific djamgui
+GET /api/djanguis/tours : get all the the tours for a specific djamgui
+GET /api/djanguis/djanguiId/users/userId: get a user for a specific djangui
+GET /api/djanguis/djanguiId/users/tourId: get a tour for a specific djangui
+POST /api/djanguis/djanguiId/users/userId add a user to a specific djangui
+
+-Tour
+POST /api/tours create a tour(admin only)
+GET /api/tours get all the tours for all the djanguis 
+GET /api/tours/tourId get a specific tour 
+PUT /api/tour/tourId update a tour 
+DELETE /api/tour/tourId delete a tout 
+GET /api/tours/tourId/cotisations get all the cotisations for a specific tour
+GET /api/tours/tourId/cotisations/cotisationId get a cotisations for a specific tour
+
+
+-Cotisation
+POST  /api/tours/tourId/cotisations/cotisationId/users/userId create a cotisation in a tour by a user 
+get a user cotisation for a specific tour 
+get all the user cotisation for a djangui 
+get all the user cotisations 
+update a cotisation 
+delete a cotisation(admin only)
+
