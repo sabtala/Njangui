@@ -8,7 +8,7 @@ Logic:
 
 Tables(entities models) and fields: 
 
-*user 
+*User 
 .first_name : string
 .last_name : string
 .email : : string(email)
@@ -20,15 +20,16 @@ Tables(entities models) and fields:
 .email verification)
 -photo : String
 
-*djamgui: 
+*Djamgui: 
 .djangui_mame : string
 .starting date : Date
 . ending date : Date
 .users : [Users].amount: int 
+tours [Tour] array of tour
 .isActive: boolean (default: true) turms to false when the djangui end (maybe end date + 3 days?)
 (timing: weekly ? 2 weeks? monthly? ...)
 
-*tour
+*Tour
 .djangui : Djangui 
 .starting_date : Date
 .due_date : Date
