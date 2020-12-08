@@ -23,7 +23,7 @@ POST /api/tours create a tour(admin only)
 GET /api/tours get all the tours for all the djanguis 
 GET /api/tours/tourId get a specific tour 
 PUT /api/tour/tourId update a tour 
-DELETE /api/tour/tourId delete a tout 
+DELETE /api/tour/tourId delete a tout (admin only
 GET /api/tours/tourId/cotisations get all the cotisations for a specific tour
 GET /api/tours/tourId/cotisations/cotisationId get a cotisations for a specific tour
 
