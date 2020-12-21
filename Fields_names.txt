@@ -2,7 +2,7 @@
 
 Logic: 
 1. The admin create a djangui for month x to month y. 
-2. a djangui has manu tours, and each user will be the recipient of a single tour determined by the admin or randomly.
+2. a djangui has many tours, and each user will be the recipient of a single tour determined by the admin or randomly.
 3. a tour has many cotisations and a cotisation is specific for a user. for example the user kaffo cotise(pay) 300 for each period od a djangui.
 4. one djangui has many users, many tours and one tour has many cotisations, a cotisation is specific to a single tour.
 
